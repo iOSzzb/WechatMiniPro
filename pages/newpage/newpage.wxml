@@ -1,0 +1,8 @@
+<view>{{text}}</view>
+<view bindtap = "viewTap">click me</view>
+<!--<view wx:for = "{{[zero,1,2,3,4]}}">{{item}}</view>-->
+<!--<template is="objectCombine" data="{{for:a,bar:b}}"></template>-->
+<!--<template is="objectCombine" data="{{for: a, bar: b}}"></template>  -->
+<view wx:if="{{a==1}}">1</view>
+<view wx:elif="{{b==2}}">2</view>
+<view wx:else>3</view>
